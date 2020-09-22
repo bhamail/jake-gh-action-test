@@ -24,6 +24,6 @@ jobs:
       run: python3 -m unittest discover
 
     - name: Scan
-      uses: sonatype-nexus-community/jake-github-action@811b6670e343fc48fde273906404adaac9bd3885
+      uses: sonatype-nexus-community/jake-github-action@a3a66b3cdfb01b0394e58f89c7e2b7ef69a5e909
       with:
         condaPipe: true
