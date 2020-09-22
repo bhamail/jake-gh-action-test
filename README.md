@@ -1,7 +1,7 @@
 <!--![gh-action-test](https://github.com/bhamail/jake-gh-action-test/workflows/Go/badge.svg)-->
 <a href="https://github.com/bhamail/jake-gh-action-test/actions?query=workflow%3AGo"><img src="https://github.com/bhamail/jake-gh-action-test/workflows/Go/badge.svg" alt="gh-action-test"></img></a>
 
-Jake GitHub Actions play project
+Jake GitHub Action play project
 ===========================
 
 ToDo
