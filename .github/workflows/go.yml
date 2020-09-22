@@ -1,0 +1,29 @@
+name: Jake
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Setup
+      run: python3 -m venv .venv
+        source .venv/bin/activate
+
+    - name: Test
+      run: python3 -m unittest discover
+
+    - name: Scan
+      uses: sonatype-nexus-community/jake-github-action@811b6670e343fc48fde273906404adaac9bd3885
+      with:
+        condaPipe: true
