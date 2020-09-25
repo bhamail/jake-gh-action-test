@@ -2,6 +2,7 @@
 #
 # Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main  
+brotlipy                  0.7.0           py38h7b6447c_1000  
 ca-certificates           2020.7.22                     0  
 certifi                   2020.6.20                py38_0  
 cffi                      1.14.3           py38he30daa8_0  
@@ -31,7 +32,7 @@ six                       1.15.0                     py_0
 sqlite                    3.33.0               h62c20be_0  
 tk                        8.6.10               hbc83047_0  
 tqdm                      4.49.0                     py_0  
-urllib3                   1.25.8                   py38_0  
+urllib3                   1.25.10                    py_0  
 wheel                     0.35.1                     py_0  
 xz                        5.2.5                h7b6447c_0  
 yaml                      0.2.5                h7b6447c_0  
