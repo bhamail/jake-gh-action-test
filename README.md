@@ -18,7 +18,7 @@ openssl                   1.1.1h               h7b6447c_0
 
 ToDo
 ----
-* Replace the commit hash below with a reference to either a release version or the `master` branch
+* Replace the commit hash below with a reference to either a release version or the `main` branch
 in `.github/workflows/jake.yml`:
 
     ```

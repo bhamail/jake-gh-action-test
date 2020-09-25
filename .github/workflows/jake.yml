@@ -2,9 +2,9 @@ name: Jake
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -26,4 +26,4 @@ jobs:
       run: python3 -m unittest discover
 
     - name: Scan
-      uses: sonatype-nexus-community/jake-github-action@master
+      uses: sonatype-nexus-community/jake-github-action@main
