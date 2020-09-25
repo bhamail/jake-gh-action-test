@@ -1,5 +1,5 @@
 <!--![gh-action-test](https://github.com/bhamail/jake-gh-action-test/workflows/Jake/badge.svg)-->
-<a href="https://github.com/bhamail/jake-gh-action-test/actions?query=workflow%3AGo"><img src="https://github.com/bhamail/jake-gh-action-test/workflows/Jake/badge.svg" alt="gh-action-test"></img></a>
+<a href="https://github.com/bhamail/jake-gh-action-test/actions?query=workflow%3AJake"><img src="https://github.com/bhamail/jake-gh-action-test/workflows/Jake/badge.svg" alt="gh-action-test"></img></a>
 
 Jake GitHub Action play project
 ===========================
