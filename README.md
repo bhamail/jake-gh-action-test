@@ -4,6 +4,18 @@
 Jake GitHub Action play project
 ===========================
 
+The [Dockerfile](Dockerfile) in this project generates a list of conda packages for use by Jake.
+```
+docker build -t conda-list .
+docker run conda-list > packages.list
+```
+
+The `openssl` package has a vulnerability ([CVE-2019-0190](https://ossindex.sonatype.org/vuln/d3c31c2b-1117-49a6-990e-e8b16d530582?component-type=conda&component-name=openssl&utm_source=jake&utm_medium=integration&utm_content=))
+that appears in all versions. So for now, I've removed `openssl` from the `packages.list` file.
+```
+openssl                   1.1.1h               h7b6447c_0  
+```
+
 ToDo
 ----
 * Replace the commit hash below with a reference to either a release version or the `master` branch
