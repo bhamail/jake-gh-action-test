@@ -27,6 +27,3 @@ jobs:
 
     - name: Scan
       uses: sonatype-nexus-community/jake-github-action@master
-      with:
-        condaPipe: true
-        jakeCommand: ddt --quiet
