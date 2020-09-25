@@ -22,8 +22,5 @@ jobs:
         python3 -m venv .venv &&
         source .venv/bin/activate
 
-    - name: Test
-      run: python3 -m unittest discover
-
     - name: Scan
       uses: sonatype-nexus-community/jake-github-action@main
