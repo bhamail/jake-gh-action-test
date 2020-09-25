@@ -22,8 +22,8 @@ pycosat                   0.6.3            py37h7b6447c_0
 pycparser                 2.19                     py37_0  
 pyopenssl                 19.1.0                   py37_0  
 pysocks                   1.7.1                    py37_0  
-python                    3.7.6                h0371630_2  
-readline                  7.0                  h7b6447c_5  
+python                    3.8.5                h7579374_1
+readline                  7.0                  h7b6447c_5
 requests                  2.22.0                   py37_1  
 ruamel_yaml               0.15.87          py37h7b6447c_0  
 setuptools                45.2.0                   py37_0  
