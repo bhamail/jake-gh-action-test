@@ -18,8 +18,8 @@ openssl                   1.1.1h               h7b6447c_0
 
 ToDo
 ----
-* Replace the commit hash below with a reference to either a release version or the `main` branch
-in `.github/workflows/jake.yml`:
+* ~~Replace the commit hash below with a reference to either a release version or the `main` branch
+in `.github/workflows/jake.yml`:~~ Done, references `main` branch now.
 
     ```
     uses: sonatype-nexus-community/jake-github-action@811b6670e343fc48fde273906404adaac9bd3885
