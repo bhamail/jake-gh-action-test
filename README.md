@@ -24,3 +24,12 @@ in `.github/workflows/jake.yml`:~~ Done, references `main` branch now.
     ```
     uses: sonatype-nexus-community/jake-github-action@811b6670e343fc48fde273906404adaac9bd3885
     ```
+
+Updating Dependency versions
+----------------------------
+As vulnerabilities are detected, you can use the following commands to find updated versions of dependencies:
+
+To find a list of available `Version`s and `Build`s for a package named: `urllib3`:
+```
+conda search --full-name urllib3
+```
