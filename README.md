@@ -6,6 +6,7 @@ Jake GitHub Action play project
 
 The [Dockerfile](Dockerfile) in this project generates a list of conda packages for use by [Jake](https://github.com/sonatype-nexus-community/jake-github-action),
 and more specifically, the [jake-github-action](https://github.com/marketplace/actions/jake-for-github-actions).
+See the [CI config](.github/workflows/jake.yml) in this project for an example of using the Jake Action.
 ```
 docker build -t conda-list .
 docker run conda-list > packages.list
