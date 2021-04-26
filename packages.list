@@ -27,7 +27,7 @@ requests                  2.24.0                     py_0
 ruamel_yaml               0.15.87          py38h7b6447c_1  
 setuptools                49.6.0                   py38_0  
 six                       1.15.0                     py_0  
-sqlite                    3.33.0               h62c20be_0  
+sqlite                    3.35.4               hce871da_0
 tk                        8.6.10               hbc83047_0  
 tqdm                      4.49.0                     py_0  
 urllib3                   1.25.11                    py_0
