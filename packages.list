@@ -30,7 +30,7 @@ six                       1.15.0                     py_0
 sqlite                    3.35.4               hce871da_0
 tk                        8.6.10               hbc83047_0  
 tqdm                      4.49.0                     py_0  
-urllib3                   1.25.11                    py_0
+urllib3                   1.26.6             pyhd3eb1b0_1
 wheel                     0.35.1                     py_0  
 xz                        5.2.5                h7b6447c_0  
 yaml                      0.2.5                h7b6447c_0  
